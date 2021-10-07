@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  
+  <title>FE TEST</title>
+</head>
+<body>
+  
+  
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        
+        <div class="col-2 col-sm-1 d-flex justify-content-end justify-content-sm-center d-xl-none px-0 px-sm-10">
+          <div class="navbar-toggler px-0 px-sm-12" data-bs-toggle="collapse" data-bs-target="#navbar" id="nc" aria-controls="#navbar" >
+            <div class="nav-open">
+              <i class="fa fa-bars"></i>
+            </div>
+            <div class="nav-close">
+              <i class="fa fa-times"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-8 col-md-3 col-sm-10 col-lg-3 d-flex justify-content-center align-item-center ps-4 ps-sm-10 pe-lg-12 pe-xl-2">
+          <div class="header__logo">
+            <img src="./img/logo.png" alt="Logo">
+          </div>
+        </div>
+        <div class="col-2 col-sm-1 d-flex justify-content-center d-md-none">
+          <div class="header__search-open">
+            <i class="fa fa-search"></i>
+          </div>
+          <div class="header__search-close">
+            <i class="fa fa-times"></i>
+          </div>
+        </div>      
+        <div class="col-12 col-md-6 offset-md-2 col-lg-6 offset-lg-2 col-xl-4 offset-xl-5 d-none d-md-flex justify-content-end align-item-center">
+          <div class="header__input">
+            <div class="input-group">
+            <input type="text" size=100% class="form-control ps-3 py-6" placeholder="Search" aria-label="Search"
+              aria-describedby="basic-addon2">
+            <button class="btn btn-primary" type="button" id = "search" value="fa-search">
+              <div class="search-ico" >
+                <i class="fa fa-search"></i>
+              </div>
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <section class="nav d-flex justify-content-center pt-lg-20 pb-lg-4 pb-xl-5">
+    <div class="container-fluid p-0">
+      <div class="navbar-expand-xl">
+      <div class="container">
+        <div class="row d-md-none">
+          <div class="col pe-0">
+            <div class="nav-input py-2">
+              <div class="input-group">
+                <input type="text" size=100% class="form-control ps-3 py-6" placeholder="Search" aria-label="Search"
+                  aria-describedby="basic-addon2">
+                <button class="btn btn-primary" type="button" id="search" value="fa-search">
+                  <div class="search-ico__nav">
+                    <i class="fas fa-search"></i>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="collapse navbar-collapse" id="navbar">
+            <div class="button-nav">home</div>
+            <div class="button-nav">services</div>
+            <div class="button-nav">portfolio</div>
+            <div class="button-nav">gallery</div>
+            <div class="button-nav">help & faq</div>
+            <div class="button-nav">about</div>
+            <div class="button-nav">contact</div>
+          </div>
+        </div>  
+      </div>
+    </div>  
+    </div>
+     
+  </section>
+  <div class="content">
+  <section class="buttons">
+    <div class="container">
+      <div class="row pt-1 pt-xl-12 pb-1 pb-sm-0">
+        <div class="col ps-4 ps-sm-10" style="text-align: center">
+          <p class="title">Buttons</p>
+        </div>
+      </div>
+      <div class="row mb-lg-32 mb-xl-5 pt-lg-6 pt-xl-20">
+        <div class="d-lg-flex justify-content-xl-center px-0">
+          <button type="button" class="btn btn-primary btn-responsive">Primary</button>
+          <button type="button" class="btn btn-outline-primary btn-responsive">Default</button>
+          <button type="button" class="btn btn-success btn-responsive text-white">Success</button>
+          <button type="button" class="btn btn-info btn-responsive text-white">Info</button>
+          <button type="button" class="btn btn-warning btn-responsive text-white">Warning</button>
+          <button type="button" class="btn btn-danger btn-responsive text-white">Danger</button>
+        </div>
+      </div>  
+    </div>
+    
+  </section>
+  <section class="input pt-0 pt-sm-1">
+    <div class="container">
+      <div class="row justify-content-center ">
+        <div class="col-6 center-block ps-4 ps-sm-10" style="text-align: center">
+          <p class="title">Inputs</p>
+        </div>
+      </div>
+      <div class="row justify-content-center ">
+        <div class="col col-xl-6 d-sm-flex justify-content-sm-start text-left ps-xl-5">
+
+          <div class="checkbox my-1 my-sm-2 pt-10 pt-sm-20 pb-1 pb-sm-20 ps-sm-1 ps-xl-2">
+            <div class="form-check pt-1">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheck1" checked>
+              <label class="form-check-label ps-3 ps-sm-1" for="flexCheck1" id="formCheck1">
+                Checkbox Active
+              </label>
+            </div>
+            <div class="form-check pt-10">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheck2" >
+              <label class="form-check-label ps-3 ps-sm-1" for="flexCheck2" id="formCheck2">
+                Checkbox
+              </label>
+            </div>
+          </div>
+          
+          <div class="radio my-2 px-md-2 pt-20 pb-20">
+            <div class="form-check pt-1">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadio1" checked>
+              <label class="form-check-label ps-3 ps-sm-1" for="flexRadio1" id="formRadio1">
+                Radio Active
+              </label>
+            </div>
+            <div class="form-check pt-10">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadio2">
+              <label class="form-check-label ps-3 ps-sm-1" for="flexRadio2" id="formRadio2">
+                Radio
+              </label>
+            </div>
+          </div>
+
+          <div class="switch my-2 px-md-12 pt-2 pt-sm-20 pb-sm-28 pb-xl-5">
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" id="flexSwitch1" checked>
+              <label class="form-check-label  ps-3 ps-sm-12 pt-1" for="flexSwitch1" id="formSwitch1">
+                Switcher ON
+              </label>
+            </div>
+            <div class="form-check form-switch pt-6">
+              <input class="form-check-input" type="checkbox" id="flexSwitch2">
+              <label class="form-check-label  ps-3 ps-sm-12 pt-1" for="flexSwitch2" id="formSwitch2">
+                Switcher OFF
+              </label>
+            </div>
+          </div>
+
+        </div>
+      </div>    
+    </div>
+  </section>
+
+  <section class="raiting">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8 center-block ps-4 ps-sm-10" style="text-align: center">
+          <div class="title">Star rating</div>
+        </div>
+      </div>
+      <div class="row justify-content-sm-center mt-20 mb-12 mb-xl-20 my-sm-4 mt-xl-28 ps-xl-1">
+        <div class="col-5 col-sm-3 d-sm-flex justify-content-end px-2 px-sm-0">
+          <div class="rating-result">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="col-5 col-sm-3 mx-0 ms-sm-2 ms-xl-1 px-1 px-sm-12">
+          <span>Show rating</span>
+        </div>       
+      </div>
+      <div class="row justify-content-sm-center pb-10 pb-sm-4 pb-xl-44 ps-xl-1">
+        <div class="col-5 col-sm-3 d-sm-flex justify-content-end px-2 px-sm-0">
+          <div class="rating-area">
+            <input type="radio" id="star-5" name="rating" value="5">
+            <label for="star-5" title="very good"></label>
+            <input type="radio" id="star-4" name="rating" value="4">
+            <label for="star-4" title="good"></label>
+            <input type="radio" id="star-3" name="rating" value="3">
+            <label for="star-3" title="so-so"></label>
+            <input type="radio" id="star-2" name="rating" value="2">
+            <label for="star-2" title="bad"></label>
+            <input type="radio" id="star-1" name="rating" value="1">
+            <label for="star-1" title="very bad"></label>
+          </div>
+        </div>
+        <div class="col-5 col-sm-3 mx-0 ms-sm-2 ms-xl-1 px-1 px-sm-12">
+          <span>Check rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="carousel pt-lg-3 pt-xl-18">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8 center-block ps-4 ps-sm-10" style="text-align: center">
+          <div class="title">Carousel</div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center pt-lg-32 pt-xl-3">
+        <div class="col-1 d-sm-flex justify-content-sm-center justify-content-xl-end align-items-center d-none pb-2 pb-xl-10">
+          <div class="prew">
+            <span class="fa fa-angle-left"></span>
+          </div>
+        </div>
+        <div class=" col-12 col-sm-10 col-xl-8 d-flex justify-content-center">
+          <div class="galery">
+            <div class="galery-slides">
+              <div class="images">
+                <div class="images__image">
+                  <div class="flexible">
+                    <div class="galery-image">
+                      <img src="./img/Chewbacca.jpg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="images__info">
+                  <div class="galery-text mx-10 mx-sm-0 px-2 ps-sm-6 ps-xl-10 my-auto">
+                    <p class="text mt-0 mt-sm-5 mt-xl-46 mb-10 mb-sm-3">When I started, I weighed over 425 pounds. What matters is that you take the steps and focus on making one good choice at a time.</p>
+                    <p class="name mx-0 mb-12">Chewbacca</p>
+                    <p class="data mb-20 mb-sm-40">July 2017</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="images">
+                <div class="images__image">
+                  <div class="flexible">
+                    <div class="galery-image">
+                      <img src="./img/Darth Vader.png" />
+                    </div>
+                  </div>
+                </div>
+                <div class="images__info">
+                  <div class="galery-text mx-10 mx-sm-0 px-2 ps-sm-6 my-auto">
+                    <p class="text mt-0 mt-sm-5 mt-xl-46 mb-10 mb-sm-3">Make the easiest changes first like swapping out a Fitlife meal instead of making an unhealthy meal choice.</p>
+                    <p class="name mx-0 mb-12">Darth Vader</p>
+                    <p class="data mb-20 mb-sm-40">July 2017</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="images">
+                <div class="images__image">
+                  <div class="flexible">
+                    <div class="galery-image">
+                      <img src="./img/Yoda.png" />
+                    </div>
+                  </div>
+                </div>
+                <div class="images__info">
+                  <div class="galery-text mx-10 mx-sm-0 px-2 ps-sm-6 my-auto">
+                    <p class="text mt-0 mt-sm-5 mt-xl-46 mb-10 mb-sm-3">I found that Fitlife made planning my meals easy and stress-free. I don’t have to spend a lot of time cooking and meal prepping</p>
+                    <p class="name mx-0 mb-12">Yoda</p>
+                    <p class="data mb-20 mb-sm-40">July 2017</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="images">
+                <div class="images__image">
+                  <div class="flexible">
+                    <div class="galery-image">
+                      <img src="./img/r2-d2.jpg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="images__info">
+                  <div class="galery-text mx-10 mx-sm-0 px-2 ps-sm-6 my-auto">
+                    <p class="text mt-0 mt-sm-5 mt-xl-46 mb-10 mb-sm-3">I don’t have to spend a lot of time cooking and meal prepping, because Fitlife does all that work for me.</p>
+                    <p class="name mx-0 mb-12">r2-r2</p>
+                    <p class="data mb-20 mb-sm-40">July 2017</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="slidertrans"></div>
+              <div class="play"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1 d-sm-flex justify-content-sm-center justify-content-xl-start align-items-center d-none pb-2 pb-xl-10">
+          <div class="next">
+            <span class="fa fa-angle-right"></span>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-20 pt-md-5 pt-xl-28 pb-44 pb-xl-5">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-4 d-flex justify-content-between pe-0 pe-sm-10 pt-1 pb-md-20 pb-xl-5">
+          <div class="slider-control"><img class="control" src="./img/Chewbacca.jpg" /></div>
+          <div class="slider-control"><img class="control" src="./img/Darth Vader.png" /></div>
+          <div class="slider-control"><img class="control" src="./img/Yoda.png" /></div>
+          <div class="slider-control"><img class="control" src="./img/r2-d2.jpg" /></div>
+        </div>        
+      </div>
+    </div>
+  </section>
+  <section class="map pt-xl-1">
+    <div class="container-fluid">
+      <div id="map" class="d-none d-xl-block"></div>
+    </div>
+  </section>
+
+
+</div>
+    <futor class="futor pt-md-44 pt-xl-36">
+      <div class="container">
+        <div class="row ">
+          <div
+            class="col-lg-12 col-xl-3 d-flex justify-content-center text-center justify-content-xl-start text-xl-start order-xl-4 px-1">
+            <div class="col-12 col-md-8 col-lg-4 col-xl-5 justify-content-center ps-32 pe-3 px-sm-10 ps-xl-0 pt-xl-12">
+              <p class="text-primary fw-bold mb-12 ps-xl-1" style="letter-spacing: 1px">Follow us</p>
+              <div
+                class="social-buttons d-flex flex-row justify-content-evenly justify-content-lg-between justify-content-xl-start pb-1 pb-sm-10">
+                <div class="icon">
+                  <img src="./img/facebook.png" alt="Facebook">
+                </div>
+                <div class="icon">
+                  <img src="./img/twitter.png" alt="Twitter">
+                </div>
+                <div class="icon">
+                  <img src="./img/instagram.png" alt="Instagram">
+                </div>
+                <div class="icon">
+                  <img src="./img/pinterest.png" alt="Pinterest">
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-sm-12 col-md-4 col-xl-3">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" id="1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Shop
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample" data-bs-parent="true">
+                  <div class="accordion-body">
+                    <div class="button-acc">Browse By Holidays</div>
+                    <div class="button-acc">Browse By Brand</div>
+                    <div class="button-acc">Gift of the Month Clubs</div>
+                    <div class="button-acc">Customized Bottles</div>
+                    <div class="button-acc">Corporate Gifts</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-sm-12 col-md-4 col-xl-3">
+            <div class="accordion" id="accordionExample2">
+              <div class="accordion-item px-0">
+                <h2 class="accordion-header " id="headingTwo">
+                  <button class="accordion-button collapsed" id="2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    About
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample2" data-bs-parent="true">
+                  <div class="accordion-body">
+                    <div class="button-acc">About Spirited Gifts</div>
+                    <div class="button-acc">Read our Blog</div>
+                    <div class="button-acc">About our Selection</div>
+                    <div class="button-acc">Read our Reviews</div>
+                    <div class="button-acc">Shipping & Returns</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-xl-3">
+            <div class="accordion" id="accordionExample3">
+              <div class="accordion-item">
+                <h2 class="accordion-header " id="headingThree">
+                  <button class="accordion-button collapsed" id="3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseTwo">
+                    More
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample3" data-bs-parent="true">
+                  <div class="accordion-body">
+                    <div class="button-acc">Privacy Policy</div>
+                    <div class="button-acc">Retailer Network</div>
+                    <div class="button-acc">Help and FAQs</div>
+                    <div class="button-acc">Scholarship</div>
+                    <div class="button-acc">Contact Us</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </futor>
+  
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2F-e-WaAswo0-o-PRTsizzzlP9DkhZU8&region=US&language=en&callback=initMap&libraries=&v=weekly" async></script>
+  <script src="./js/script.min.js"> </script>
+   
+</body>
+</html>
